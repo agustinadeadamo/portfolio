@@ -46,3 +46,11 @@ this site are things the pipeline verifies, not adjectives.
 No bundler, no unit tests for static markup, no TypeScript build for a few hundred lines of
 vanilla JS, no component library / Storybook. For a single static page these would be
 cargo-culted complexity. Knowing where to stop is part of the work.
+
+## 7. The chat endpoint: proportional cost & abuse controls
+
+The chat runs on Haiku (cheapest current model — fine for a fixed-profile Q&A), capped
+output, per-IP rate limiting, an origin allowlist, and input-size limits. It deliberately
+does NOT use a durable rate-limit store (Redis): for a portfolio, an in-memory limit plus
+a hard spend cap on the Anthropic account is the proportional backstop. Under normal use
+the cost is cents; abuse is bounded by the spend cap.
