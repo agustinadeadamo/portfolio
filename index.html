@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Agustina De Adamo — Frontend & AI Product Engineer · the messy middle</title>
+    <meta
+      name="description"
+      content="Frontend & AI product engineer with product judgment and a designer's eye. I work in the gap between a rough idea and something people can actually use. Building Whetstone, an AI-graded interview trainer. Six years shipping production frontend for US startups. From Argentina, working remotely worldwide."
+    />
+    <meta name="author" content="Agustina De Adamo" />
+    <link rel="canonical" href="https://agustinadeadamo.com/" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Agustina De Adamo — Frontend & AI Product Engineer, the messy middle"
+    />
+    <meta
+      property="og:description"
+      content="The gap between 'we have an idea' and 'users can actually use it.' I find the missing decisions, shape the flow, and build it. Currently building Whetstone."
+    />
+    <meta property="og:url" content="https://agustinadeadamo.com/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Agustina De Adamo",
+        "jobTitle": "Frontend & AI Product Engineer",
+        "nationality": "Argentine",
+        "email": "agustinadeadamo@gmail.com",
+        "url": "https://agustinadeadamo.com",
+        "sameAs": [
+          "https://linkedin.com/in/agustina-de-adamo",
+          "https://github.com/agustinadeadamo"
+        ],
+        "knowsAbout": [
+          "Frontend engineering",
+          "React",
+          "Next.js",
+          "TypeScript",
+          "AI product features",
+          "RAG",
+          "LLM",
+          "Postgres",
+          "Row-Level Security",
+          "Product flows",
+          "UX/UI",
+          "Accessibility",
+          "Frontend architecture"
+        ]
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="cursor" aria-hidden="true"></div>
+
+    <div class="loader" id="loader">
+      <div class="loader__count" id="count">00</div>
+      <div class="loader__label">Agustina De Adamo<br />The messy middle</div>
+    </div>
+
+    <header class="nav">
+      <div class="wrap nav__in">
+        <a href="#top" class="nav__logo" data-hover
+          >AD<span style="color: var(--yellow)">.</span></a
+        >
+        <nav class="nav__menu">
+          <a href="#middle" data-hover>The middle</a>
+          <a href="#process" data-hover>How I think</a>
+          <a href="#whetstone" data-hover>Whetstone</a>
+          <a href="#work" data-hover>Experience</a>
+          <a href="#ask" data-hover>Ask me</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="wrap">
+          <span class="avail mono"
+            ><span class="d"></span> Frontend &amp; AI Product Engineer · from Argentina, for the
+            world</span
+          >
+          <h1 class="hero__t">
+            <span class="line"><span class="line__in">I work in</span></span>
+            <span class="line"
+              ><span class="line__in">the <em>messy</em></span></span
+            >
+            <span class="line"
+              ><span class="line__in"><em>middle.</em></span></span
+            >
+          </h1>
+          <div class="hero__sub">
+            <p>
+              The gap between <span class="hl">“we have an idea”</span> and
+              <span class="hl">“users can actually use this.”</span> I find the missing decisions,
+              shape the flow, and <b>build the interface</b> — with the frontend depth to keep it
+              maintainable.
+            </p>
+            <a href="#contact" class="btn" data-magnetic data-hover
+              >Let's talk <span class="arrow">↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <span>Clarify the flow</span><span class="star">✺</span><span>Name the decisions</span
+          ><span class="star">✺</span><span>React · Next · TypeScript</span
+          ><span class="star">✺</span><span>Make it usable</span><span class="star">✺</span
+          ><span>Ship it</span><span class="star">✺</span> <span>Clarify the flow</span
+          ><span class="star">✺</span><span>Name the decisions</span><span class="star">✺</span
+          ><span>React · Next · TypeScript</span><span class="star">✺</span
+          ><span>Make it usable</span><span class="star">✺</span><span>Ship it</span
+          ><span class="star">✺</span>
+        </div>
+      </div>
+
+      <section id="who">
+        <div class="wrap">
+          <div class="eyebrow"><span class="bar"></span><span class="mono">01 — Who</span></div>
+          <p class="lead who-lead" data-reveal>
+            Not a designer who codes. Not a developer who avoids product.
+          </p>
+          <div class="who">
+            <div class="who__photo">
+              <span class="accent" aria-hidden="true"></span>
+              <div class="frame">
+                <span class="tag"><span class="d"></span> Working remotely</span>
+                <img src="assets/agustina.jpg" alt="Agustina De Adamo working on her laptop" />
+              </div>
+            </div>
+            <div>
+              <p data-reveal>
+                I'm a frontend engineer who came up through graphic design, so I notice the things
+                that make a product feel clear and trustworthy — hierarchy, rhythm, the empty state
+                nobody designed, the error message that reads like an apology.
+              </p>
+              <p data-reveal>
+                But I've also spent six years in production: complex state, APIs, legacy code,
+                refactors, testing, conversion, frontend architecture. I'm practical. I don't ship
+                beautiful theory that nobody can maintain.
+              </p>
+              <p data-reveal>
+                I'm useful when things are still undefined — early products, AI tools, SaaS,
+                dashboards, internal tools, e-commerce flows — and someone needs to bring order
+                without slowing everyone down.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mm" id="middle">
+        <div class="wrap">
+          <div class="eyebrow">
+            <span class="bar"></span><span class="mono">02 — What I actually do</span>
+          </div>
+          <h2 class="h2" data-reveal>
+            A rough idea carries a pile of unanswered questions. I answer them, then build.
+          </h2>
+          <div class="mm__stage" id="mmStage">
+            <span class="mm__label start">we have an idea…</span>
+            <div class="mm__frag" data-sx="-340" data-sy="-150" data-r="-12">
+              what's the real flow?
+            </div>
+            <div class="mm__frag" data-sx="280" data-sy="-180" data-r="9">
+              empty &amp; error states
+            </div>
+            <div class="mm__frag" data-sx="-300" data-sy="120" data-r="7">edge cases</div>
+            <div class="mm__frag" data-sx="320" data-sy="90" data-r="-8">what's the MVP?</div>
+            <div class="mm__frag" data-sx="-60" data-sy="-210" data-r="4">
+              where does it confuse?
+            </div>
+            <div class="mm__frag" data-sx="60" data-sy="200" data-r="-5">decide before we code</div>
+            <span class="mm__label end">…users can use it.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="process" id="process">
+        <div class="wrap">
+          <div class="eyebrow">
+            <span class="bar"></span><span class="mono">03 — How I think</span>
+          </div>
+          <h2 class="h2" data-reveal>Questions I ask before I write code.</h2>
+          <p class="note" data-reveal>
+            This is the part a junior — or an AI-generated solution — skips. It's also the part that
+            decides whether the product is any good.
+          </p>
+          <div class="q-list">
+            <div class="q-row">
+              <span class="n">01</span
+              ><span class="q">What is the real user problem — not the feature request?</span>
+            </div>
+            <div class="q-row">
+              <span class="n">02</span
+              ><span class="q">What breaks at 10× the users or the data?</span>
+            </div>
+            <div class="q-row">
+              <span class="n">03</span
+              ><span class="q">What should be documented so the team doesn't drift?</span>
+            </div>
+            <div class="q-row">
+              <span class="n">04</span
+              ><span class="q">What would a senior engineer catch that nobody else would?</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section style="padding-block: 3vh">
+        <div class="wrap">
+          <div class="stats">
+            <div class="stat">
+              <div class="num" data-count="6">0<small>+</small></div>
+              <div class="lbl">Years building<br />production software</div>
+            </div>
+            <div class="stat">
+              <div class="num" data-count="4">0</div>
+              <div class="lbl">US startups<br />& agencies</div>
+            </div>
+            <div class="stat">
+              <div class="num" data-count="10">0<small>%</small></div>
+              <div class="lbl">Conversion lift<br />(checkout refactor)</div>
+            </div>
+            <div class="stat">
+              <div class="num" data-count="6">0</div>
+              <div class="lbl">Years graphic<br />design (UBA)</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="whetstone">
+        <div class="wrap">
+          <div class="eyebrow">
+            <span class="bar"></span><span class="mono">04 — What I'm building</span>
+          </div>
+          <h2 class="h2" data-reveal style="margin-bottom: 10px">Whetstone — my own product.</h2>
+          <p data-reveal style="color: var(--muted); max-width: 54ch; margin-bottom: 6px">
+            An AI-graded interview trainer I'm building solo, to senior standards. Two pieces: the
+            app, in active development, and the live waitlist that validates it. Both open on GitHub
+            — click through.
+          </p>
+
+          <div class="feat feat--dark" data-reveal>
+            <div class="feat__txt">
+              <span class="feat__status"><span class="d"></span> In active development</span>
+              <h3>Whetstone — the app</h3>
+              <p class="feat__one">
+                You write your answer to an interview question from memory, an AI grades it against
+                a reference, and you see what you covered, missed, and should fix — progress mapped
+                across topics as you practice.
+              </p>
+              <div class="feat__tags">
+                <span>Next.js</span><span>TypeScript</span><span>Postgres</span><span>Supabase</span
+                ><span>Drizzle</span><span>Claude API</span><span>Zod</span>
+              </div>
+              <div class="feat__links">
+                <a
+                  href="https://github.com/agustinadeadamo/whetstone-app"
+                  target="_blank"
+                  rel="noopener"
+                  data-hover
+                  >View on GitHub ↗</a
+                >
+              </div>
+            </div>
+            <div class="hi-box">
+              <h4>Built to senior standards</h4>
+              <ul class="hi">
+                <li>
+                  <span class="m">›</span
+                  ><span
+                    ><b>Multi-tenant security at the DB layer.</b> Postgres Row-Level Security — 28
+                    policies across 7 tables — not app-level filtering. Verified
+                    adversarially.</span
+                  >
+                </li>
+                <li>
+                  <span class="m">›</span
+                  ><span
+                    ><b>Decisions documented.</b> 12 Architecture Decision Records explain the
+                    <i>why</i> (Drizzle over Prisma, RLS over app filtering, no RAG in the
+                    MVP…).</span
+                  >
+                </li>
+                <li>
+                  <span class="m">›</span
+                  ><span
+                    ><b>AI grading layer <i>(in progress)</i>.</b> Server-side Claude API with
+                    structured outputs, output repair, and an eval set to catch regressions.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="feat feat--live" data-reveal>
+            <div class="feat__txt">
+              <span class="feat__status"><span class="d"></span> Live, deployed</span>
+              <h3>Whetstone — the waitlist</h3>
+              <p class="feat__one">
+                A conversion-focused landing + waitlist, built to validate demand before building
+                more — and to show product thinking end to end, from hypothesis to measurement.
+              </p>
+              <ul class="hi" style="margin-bottom: 6px">
+                <li>
+                  <span class="m">›</span
+                  ><span
+                    ><b>Product thinking, not just execution.</b> A stated hypothesis, one narrowed
+                    audience, one conversion goal, a measurement plan — the qualifying question
+                    doubles as the validation instrument.</span
+                  >
+                </li>
+                <li>
+                  <span class="m">›</span
+                  ><span
+                    ><b>Proportional security.</b> Server-side validation, honeypot, in-memory rate
+                    limiting — and a documented call to <i>skip</i> CAPTCHA and Redis as
+                    over-engineering.</span
+                  >
+                </li>
+                <li>
+                  <span class="m">›</span
+                  ><span
+                    ><b>Server-side form handling.</b> Airtable token stays server-side;
+                    mobile-first, accessible, with a generated OG image and a clean console.</span
+                  >
+                </li>
+              </ul>
+              <div class="feat__tags">
+                <span>Next.js</span><span>TypeScript</span><span>Tailwind</span><span>Airtable</span
+                ><span>Vercel</span><span>GitHub Actions</span>
+              </div>
+              <div class="feat__links">
+                <a
+                  href="https://whetstone-waitlist.vercel.app/"
+                  target="_blank"
+                  rel="noopener"
+                  data-hover
+                  >Visit live ↗</a
+                >
+                <a
+                  href="https://github.com/agustinadeadamo/whetstone-waitlist/blob/main/CASE_STUDY.md"
+                  class="ghost"
+                  target="_blank"
+                  rel="noopener"
+                  data-hover
+                  >Case study ↗</a
+                >
+                <a
+                  href="https://github.com/agustinadeadamo/whetstone-waitlist"
+                  class="ghost"
+                  target="_blank"
+                  rel="noopener"
+                  data-hover
+                  >GitHub ↗</a
+                >
+              </div>
+            </div>
+            <a
+              href="https://whetstone-waitlist.vercel.app/"
+              target="_blank"
+              rel="noopener"
+              class="feat__shot"
+              data-hover
+            >
+              <img
+                src="assets/whetstone-landing.jpg"
+                alt="Whetstone waitlist landing page — 'You know the answer. But would it actually pass the interview?'"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="work">
+        <div class="wrap">
+          <div class="eyebrow">
+            <span class="bar"></span><span class="mono">05 — Experience</span>
+          </div>
+          <h2 class="h2" data-reveal style="margin-bottom: 8px">
+            Where I've shipped — and the calls I made.
+          </h2>
+          <p data-reveal style="color: var(--muted); max-width: 50ch; margin-bottom: 8px">
+            Production work for US startups and agencies. It's their software, so there's nothing to
+            link — but here's the situation I walked into and what I drove.
+          </p>
+          <div class="work-grid">
+            <div class="card" data-hover data-reveal>
+              <div class="top">
+                <span class="co">Jan-Way</span><span class="yr">USA · 2024—26</span>
+              </div>
+              <div class="role">Founding / Senior Frontend</div>
+              <div class="row">
+                <span class="k">Situation</span
+                ><span class="v"
+                  >A 0→1 product, mostly undefined. Goals ambiguous and changing.</span
+                >
+              </div>
+              <div class="row">
+                <span class="k">What I drove</span
+                ><span class="v"
+                  >Turned fuzzy goals into user flows, MVP scope and API contracts. Defined a
+                  frontend architecture that could grow, then shipped end-to-end with the
+                  founder.</span
+                >
+              </div>
+              <div class="row res">
+                <span class="k">Result</span
+                ><span class="v"
+                  ><span class="dotk"></span>Shipped spec → production, owned not handed off.</span
+                >
+              </div>
+            </div>
+
+            <div class="card" data-hover data-reveal>
+              <div class="top">
+                <span class="co">Firstleaf</span><span class="yr">USA · 2021—24</span>
+              </div>
+              <div class="role">React Frontend Engineer</div>
+              <div class="row">
+                <span class="k">Situation</span
+                ><span class="v"
+                  >A large wine e-commerce platform with a checkout losing people, on years of
+                  legacy code.</span
+                >
+              </div>
+              <div class="row">
+                <span class="k">What I drove</span
+                ><span class="v"
+                  >Untangled the checkout states and friction points, refactored legacy code, kept
+                  it accessible (WCAG).</span
+                >
+              </div>
+              <div class="row res">
+                <span class="k">Result</span
+                ><span class="v"
+                  ><span class="dotk"></span>+10% conversion from the checkout refactor.</span
+                >
+              </div>
+            </div>
+
+            <div class="card" data-hover data-reveal>
+              <div class="top"><span class="co">Valtech</span><span class="yr">2020—21</span></div>
+              <div class="role">Front End Developer Ssr. · Luxury retail</div>
+              <div class="row">
+                <span class="k">Situation</span
+                ><span class="v"
+                  >A luxury retailer needed a fast, polished web app and hadn't settled the
+                  stack.</span
+                >
+              </div>
+              <div class="row">
+                <span class="k">What I drove</span
+                ><span class="v"
+                  >Helped pick stack and architecture (React, GraphQL, Next.js SSG), built it with
+                  accessibility baked in.</span
+                >
+              </div>
+              <div class="row res">
+                <span class="k">Result</span
+                ><span class="v"
+                  ><span class="dotk"></span>A performant, inclusive app on-brand.</span
+                >
+              </div>
+            </div>
+
+            <div class="card" data-hover data-reveal>
+              <div class="top">
+                <span class="co">Arcos Dorados</span><span class="yr">2018—20</span>
+              </div>
+              <div class="role">Front-End Developer · McDonald's SLAD</div>
+              <div class="row">
+                <span class="k">Situation</span
+                ><span class="v"
+                  >Internal admin processes were manual and slow across the region.</span
+                >
+              </div>
+              <div class="row">
+                <span class="k">What I drove</span
+                ><span class="v"
+                  >Built the web app that streamlined them (React, Redux), with Jest/Enzyme testing
+                  in an Agile team.</span
+                >
+              </div>
+              <div class="row res">
+                <span class="k">Result</span
+                ><span class="v"
+                  ><span class="dotk"></span>Manual admin work, turned into a tool.</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="ask">
+        <div class="wrap">
+          <div class="eyebrow">
+            <span class="bar"></span><span class="mono">06 — Not sure I'm a fit?</span>
+          </div>
+          <h2 class="h2" data-reveal style="max-width: 18ch">
+            Ask me anything. I built this to answer honestly.
+          </h2>
+          <div class="chat">
+            <div class="chat__head">
+              <h3>Ask Agustina</h3>
+              <span class="st"><span class="d"></span> grounded in real experience</span>
+            </div>
+            <div class="chat__log" id="log">
+              <div class="msg a">
+                Hi — I'm a small assistant Agustina built, answering from her real experience. Ask
+                about how she works, what she's shipped, Whetstone, or whether she'd fit your team.
+                I'll say so when I don't know.
+              </div>
+            </div>
+            <div class="chips" id="chips">
+              <button class="chip">What is Whetstone?</button>
+              <button class="chip">How do you handle vague requirements?</button>
+              <button class="chip">What kind of teams suit you?</button>
+              <button class="chip">Tell me about the checkout refactor.</button>
+            </div>
+            <div class="chat__in">
+              <input
+                id="input"
+                type="text"
+                placeholder="Type a question…"
+                aria-label="Ask Agustina a question"
+                autocomplete="off"
+              />
+              <button id="send">Send</button>
+            </div>
+          </div>
+          <p style="color: var(--muted); font-size: 0.85rem; margin-top: 14px; max-width: 60ch">
+            It uses an LLM, scoped tightly to what I'd actually say. I don't trust AI blindly — so
+            it's grounded, honest about gaps, and points you to email when it matters.
+          </p>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="wrap">
+          <div class="eyebrow"><span class="bar"></span><span class="mono">Let's talk</span></div>
+          <a class="big" href="mailto:agustinadeadamo@gmail.com" data-hover>
+            <span class="line"><span class="line__in">Got something</span></span>
+            <span class="line"><span class="line__in">half-defined?</span></span>
+          </a>
+          <div class="links">
+            <a href="mailto:agustinadeadamo@gmail.com" data-hover>agustinadeadamo@gmail.com</a>
+            <a
+              href="https://linkedin.com/in/agustina-de-adamo"
+              target="_blank"
+              rel="noopener"
+              data-hover
+              >LinkedIn ↗</a
+            >
+            <a href="https://github.com/agustinadeadamo" target="_blank" rel="noopener" data-hover
+              >GitHub ↗</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap foot">
+        <span>© 2026 Agustina De Adamo</span
+        ><span>From Argentina, for the world · open to remote</span><span>Built with GSAP</span>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
